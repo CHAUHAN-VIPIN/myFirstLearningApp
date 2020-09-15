@@ -1,0 +1,97 @@
+https://www.tutorialkart.com/microsoft-azure-tutorials-learn-azure-basics-step-by-step/
+
+
+https://portal.azure.com/
+
+Role
+    module
+    SubModule
+    SubModuleOptions
+    UserRoles
+
+server=uatdev.cqzig85435ic.us-east-1.rds.amazonaws.com;database=PPGBackOfficeDev;user=Dev;password=WxEN(aC@6*}t[XrY
+
+Rajiv.Sundariyal
+@erotelP2
+
+https://modelviewers.pilotfishtechnology.com/modelviewers/OTA/
+
+http://dev-alb-698544305.us-east-1.elb.amazonaws.com/phase2/backoffice/properties/23/services
+
+UserRoleMappingEntityTypeConfiguration
+ // New Changes by Vipin Kumar
+            //builder.Property(x => x.ModuleId).IsRequired(true);
+            //builder.Property(x => x.SubModuleId).IsRequired(true);
+            //builder.Property(x => x.SubModuleOptionId).IsRequired(true);
+            // Ends
+
+DELETE FROM PPGBackOfficeDev.UserRole WHERE Id >= 45
+
+http://dotnetpattern.com/multi-threading-interview-questions
+http://dotnetpattern.com/threading-interview-questions-series-part-1
+
+C:\Users\Vipin.Kumar1\AppData\Roaming\npm\
+
+C:\Users\Vipin.Kumar1\AppData\Roaming\npm\
+
+npm config set https-proxy http://Vipin.Kumar1:India@123@igtggn2websense.igt.in:8080/
+
+"protractor": "~5.4.0",
+
+npm install strict-mode
+
+https://beta.skyteam.com/skyteamdev/en/RTW/
+
+http://192.168.29.66/AmadeusServiceUAT/AirAdapterService.svc
+
+http://localhost:61201/AirAdapterService.svc
+
+cd C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\
+
+125.19.56.20/general
+
+Vpn-ech.igtsolutions.com/general1
+
+6238
+
+"use strict";
+
+2.	Login in to jump machine (172.18.193.22)
+a.	UserName:         .\IGT_Admin
+b.	Password:           Interglobe#01
+
+
+MySQL8.0
+
+Windows logo key + Fn + PrtScn
+
+
+https://jasontaylor.dev/asp-net-core-angular-9-upgrade/
+
+
+npm config set http-proxy http://104.16.18.35:443,http://Vipin.Kumar1:India@123@igtggn2websense.igt.in:8080
+
+npm config set https-proxy http://104.16.18.35:443
+
+
+https://igtrtwskyteamtripplanner20200228113255.azurewebsites.net/api/routemanagement/getcitiesasync/1
+
+Skyteam-Traditional(IT-11078-81-01)
+
+Neel Paliwal(20095954)
+
+https://igtsolutions.lms.simplilearn.com
+Chauhan@2015
+http://www.simplilearn.com/vipinkumar1
+igtpl
+
+https://igtsolutions.webex.com/meet/vaseem.quraishi
+
+charu.dar@igtsolutions.com --9811575532 -- Manager Training -HR Operation
+Kratika.Jain@igtsolutions.com -- 9811995862 -- Senior Executive-PMO -- IT Services
+madan.singh@igtsolutions.com -- 9871001311-- Senior Project Manager -- IT Services
+Hemant.Verma@igtsolutions.com -- 9971889987 -- Delivery Head - IT Services
+kumar.tarun@igtsolutions.com -- 9818425259 -- Senior Technical Architec, IT-Service
+Mahipal@igtsolutions.com -- 8607395464 --Associate Software Engine, IT-Services
+Atul.Kumar1@igtsolutions.com -- 8808997121 -- Associate Software Engine, IT-Services
+Puspendu.Biswas@igtsolutions.com -- 8336804759 -- Technical Architect, IT-Services
