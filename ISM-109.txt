@@ -1,0 +1,46 @@
+1. BackOffice - Booking 36 Columns same as Currently datetime Filter 
+2. Scheduler -36 Columns 
+
+1- Minute
+
+BookingReportScheduleTask.cs
+ServiceCollectionExtensions.cs
+
+
+1.OrderRefNo	
+2 BookingDate (GMT +8)	
+3 ServiceName	
+4 RatePlanName	
+5 MinSlotStartTime	
+6 MaxSlotEndTime	
+7 PaymentID	
+8 PaymentTransactionID	
+9 PaymentType	
+10 PaymentCurrency	
+11 TotalPaid (USD)	
+12 TotalPaid(Payment Currency)	
+13 TotalServicePrice (USD)	
+14 TotalServicePrice (PaymentCurrency)	
+15 PromoCode	
+16 PromoCodeValue (USD)	
+17 PromoCodeValue (PaymentCurrency)	
+18 PropertyCurrency	
+19 Total Service Price (PropertyCurrency)	
+20 FirstName	
+21 LastName	
+22 Email	
+23 CountryofResidence	
+24 Source	
+25 Status	
+26 GuestCount	
+27 AdultCount	
+28 ChildCount	
+29 TravelType	
+30 UserIP	
+31 AirlineCode	
+32 AirlineName	
+33 FlightNumber	
+34 RefundAmount (USD)	
+35 RefundAmount (Payment Currency)	
+36 RefundDate (GMT +8)
+

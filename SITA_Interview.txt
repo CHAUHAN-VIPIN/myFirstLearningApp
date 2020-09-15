@@ -1,0 +1,24 @@
+1. Dependency Injection. 
+2. StartUp.cs.
+3. MiddleWare.
+4. AngularJS(Version - 1.4).
+5. REST API.
+6. SQL Server.
+7. Azure Server.
+8. Azure DevOps Tool - CI/CD, Development to Deployment,Principles.
+9. OOPS, C#, WCF- Duplex Binding.
+10. View.js.
+11. indexing, Query Plan, Query Optimization, Deadlocks resolve
+12. XSLT,XML Parsing.
+13.Unit Testing
+-> MS-Unit
+-> X Unit
+-> N Unit
+14. DCS
+15. PNR
+16. IATA
+17. Travel Documents
+18. Travel Domain
+19..Net Core
+20 JS Framework.
+21. Airport Check In Process.

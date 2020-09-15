@@ -1,0 +1,151 @@
+MySQL Commands
+
+1.Query to reterive all tables.
+use PPGBackOfficeDev;
+show tables;
+
+__EFMigrationsHistory
+AnchillaryRatePlans
+Ancillary
+AncillaryServices
+BookingAncillary
+BookingBackgroundProcess
+BookingGuests
+BookingPaymentDetails
+BookingPaymentMails
+BookingRequestLog
+Bookings
+BookingServices
+BookingServicesWAS
+BookingSessions
+BookingsOTA
+Campaigns
+Channels
+ChannelServicesAndRates
+DTToolBackgroundProcess
+EmailConfiguration
+EmailConfigurationParam
+ExchangeRatesLogs
+Inventory
+InventoryPrice
+InventoryRules
+Modules
+MultilingualContent
+MultilingualStaticContent
+openexchangerate
+OpenExchangeRates
+OpenExchangeRatesLogs
+OTAServiceRates
+PartnerPortalParam
+PartnerPortals
+PromoCodeParam
+PromoCodes
+Property
+PropertyParam
+PropertyRatePlan
+PropertyRatePlanParam
+PropertyRatePlanService
+RoleClaims
+Roles
+RoomClass
+Service
+ServiceParam
+SubModuleOptions
+SubModules
+Taxes
+TaxesRatePlans
+TaxType
+TermsAndConditions
+TermsandConditionsLinkedRates
+UserLogsParam
+UserPropertyMapping
+UserRole
+Users
+UsersLogs
+
+
+		Message	"Cannot add or update a child row: a foreign key constraint fails (`PPGBackOfficeDev`.`UserRole`, CONSTRAINT `FK_UserRole_Module_ModuleId` FOREIGN KEY (`ModuleId`) REFERENCES `Modules` (`ModuleId`) ON DELETE NO ACTION)"	
+string
+
+
+Delete : Full
+Add : Write
+View : View
+
+Pending : 
+1. PropertiesList
+2. PropertySetup
+3. Distribution Manager
+4. Booking
+
+INSERT INTO PPGBackOfficeDev.UserRole(RoleId,UserId,ModuleId,SubModuleId,SubModuleOptionId,CompleteAccess,WriteAccess,ViewAccess,NoAccess,Status,Createdon,CreatedBy,UpdatedOn,UpdatedBy)
+SELECT RoleId,UserId,ModuleId,SubModuleId,SubModuleOptionId,CompleteAccess,WriteAccess,ViewAccess,NoAccess,Status,Createdon,CreatedBy,UpdatedOn,UpdatedBy 
+
+
+    Role
+    Modules
+    SubModule
+    SubModuleOptions
+    UserRoles
+
+FullAccess=4,
+    WriteAccess=3,
+    ViewAccess=2,
+    NoAccess=1
+ AccessType[AccessType["FullAccess"] = 4] = "FullAccess";
+    AccessType[AccessType["WriteAccess"] = 3] = "WriteAccess";
+    AccessType[AccessType["ViewAccess"] = 2] = "ViewAccess";
+    AccessType[AccessType["NoAccess"] = 1] = "NoAccess";
+
+
+// Changes by Vipin Kumar
+  writeAccess:number=Number(AccessType.WriteAccess);
+  viewAccess:number=Number(AccessType.ViewAccess);
+  fullAccess:number=Number(AccessType.FullAccess);
+  // Ends
+*hasClaim="'User Management:'+writeAccess"
+
+
+checkUserClaims(claimType:string,):boolean
+{
+  let access:number=Number(AccessType.ViewAccess);
+  let a = this.authenticationService.hasClaim(claimType+':'+access);
+//alert(claimType+":"+a);
+  return a;
+}
+
+private authenticationService: AuthenticationService
+
+checkUserClaims('Location')
+
+
+{ path: 'information', component: PartnerInformationComponent , canActivate: [AuthenticationGuard], data: { claimType: 'Partner Information' }},
+      { path: 'contacts', component: PartnerContactComponent , canActivate: [AuthenticationGuard], data: { claimType: 'Contact Information' }},
+      { path: 'logo', component: PartnerLogoComponent , canActivate: [AuthenticationGuard], data: { claimType: 'Logo' }},
+      { path: 'ratecards', component: PartnerRateCardComponent , canActivate: [AuthenticationGuard], data: { claimType: 'Rate Card' }},
+      { path: 'roles', component: PartnerRolesComponent , canActivate: [AuthenticationGuard], data: { claimType: 'Role And Permission' }}
+
+
+*ngIf="hasPartnerPortalReadAccess"
+
+
+
+Changes : 
+1. AuthenticationDomain.cs
+2. PropertyDomain.cs
+3. IPropertyDomain.cs
+4. IPropertyApplication.cs
+5. UserApplication.cs
+6. PromoCodeController.cs
+7. PropertiesController.cs
+8. UserManagementController.cs
+9. UserDomain.cs
+10.IUserDomain.cs
+11.UserApplication.cs
+12. IUserApplication.cs
+13. UserManagementController.cs
+14. user-management.component.html
+
+
+
+
